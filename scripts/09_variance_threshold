@@ -1,0 +1,9 @@
+import pandas as pd
+from sklearn.feature_selection import VarianceThreshold
+
+scaled = pd.read_csv("C:/OSAS_iteration3/outputs/scaled.csv")
+
+selector = VarianceThreshold(threshold=0.05)
+selector.fit(scaled)
+
+print("Remaining features:", scaled.columns[selector.get_support()])
