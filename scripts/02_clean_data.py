@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Load data
-ncpt = pd.read_csv("C:/OSAS/data/ncpt_formatted.csv")
-lifestyle = pd.read_csv("C:/OSAS/data/mental_health_lifestyle_survey_2024.csv")
+ncpt = pd.read_csv("C:/OSAS_iteration3/data/ncpt_formatted.csv")
+lifestyle = pd.read_csv("C:/OSAS_iteration3/data/mental_health_lifestyle_survey_2024.csv")
 
 # Convert numeric-looking strings to numbers
 numeric_cols = [
@@ -43,7 +43,7 @@ lifestyle["Self_Reported_Stress_Level"] = lifestyle["Self_Reported_Stress_Level"
 lifestyle["Daily_Screen_Time_Hours"] = lifestyle["Daily_Screen_Time_Hours"].clip(upper=15)
 
 # Save cleaned files
-ncpt.to_csv("C:/OSAS/outputs/ncpt_clean.csv", index=False)
-lifestyle.to_csv("C:/OSAS/outputs/mental_health_lifestyle_clean.csv", index=False)
+ncpt.to_csv("C:/OSAS_iteration3/outputs/ncpt_clean.csv", index=False)
+lifestyle.to_csv("C:/OSAS_iteration3/outputs/mental_health_lifestyle_clean.csv", index=False)
 
 print("Cleaning complete.")

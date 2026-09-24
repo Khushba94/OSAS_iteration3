@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-merged = pd.read_csv("C:/OSAS/outputs/merged.csv")
+merged = pd.read_csv("C:/OSAS_iteration3/outputs/merged.csv")
 
 # Correct feature list
 features = [
@@ -30,6 +30,6 @@ scaled_data = scaler.fit_transform(merged[features])
 
 scaled_df = pd.DataFrame(scaled_data, columns=features)
 
-scaled_df.to_csv("C:/OSAS/outputs/scaled.csv", index=False)
+scaled_df.to_csv("C:/OSAS_iteration3/outputs/scaled.csv", index=False)
 
 print("Scaling complete.")

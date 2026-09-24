@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load cleaned datasets
-ncpt = pd.read_csv("C:/OSAS/outputs/ncpt_clean.csv")
-lifestyle = pd.read_csv("C:/OSAS/outputs/mental_health_lifestyle_clean.csv")
+ncpt = pd.read_csv("C:/OSAS_iteration3/outputs/ncpt_clean.csv")
+lifestyle = pd.read_csv("C:/OSAS_iteration3/outputs/mental_health_lifestyle_clean.csv")
 
 # ----------------------------------------------------
 # 1. Cognitive Composite Score
@@ -74,7 +74,7 @@ lifestyle["risk_behaviour_score"] = (
 # ----------------------------------------------------
 # Save engineered datasets
 # ----------------------------------------------------
-ncpt.to_csv("C:/OSAS/outputs/ncpt_features.csv", index=False)
-lifestyle.to_csv("C:/OSAS/outputs/lifestyle_features.csv", index=False)
+ncpt.to_csv("C:/OSAS_iteration3/outputs/ncpt_features.csv", index=False)
+lifestyle.to_csv("C:/OSAS_iteration3/outputs/lifestyle_features.csv", index=False)
 
 print("Feature engineering complete.")
