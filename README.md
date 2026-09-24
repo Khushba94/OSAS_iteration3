@@ -1,6 +1,6 @@
 # OSAS Iteration 3 — Cognitive & Lifestyle Analytics Pipeline
 
-# Overview
+## Overview
 This repository contains a complete data processing and clustering pipeline for analysing cognitive performance and lifestyle behaviour patterns.
 It includes:
 - Data cleaning
@@ -39,21 +39,23 @@ OSAS_iteration3/
 └── README.md
 </pre>
 
-# 1. Data Cleaning
-# NCPT Cleaning
+## 1. Data Cleaning
+### NCPT Cleaning
 - Convert numeric-looking strings to numeric
 - Fill missing values using median
 - Winsorise outliers (3 SD rule)
-- Output: ncpt_clean.csv
+Output: 
+- ncpt_clean.csv
 
-# Lifestyle Cleaning
+### Lifestyle Cleaning
 - Handle missing sleep, stress, screen time
 - Clip extreme screen time values
 - Convert categorical fields (BMI, caffeine intake, exercise frequency)
-- Output: lifestyle_clean.csv
+Output: 
+- lifestyle_clean.csv
 
-# 2. Feature Engineering
-# Cognitive Composite Score
+## 2. Feature Engineering
+### Cognitive Composite Score
 Average of:
 - Attention
 - MemoryRecall
@@ -61,24 +63,24 @@ Average of:
 - Reasoning
 - WorkingMemory
 
-# Wellbeing Index
+### Wellbeing Index
 MinMax scaled average of:
 - Sleep hours
 - Exercise frequency
 - Stress level
 - Social interaction frequency
 
-# Risk Behaviour Score
+### Risk Behaviour Score
 Combination of:
 - Daily screen time
 - Caffeine intake
 - BMI category
 
-# Outputs:
+### Outputs:
 - ncpt_features.csv
 - lifestyle_features.csv
 
-# 3. Dataset Merge
+## 3. Dataset Merge
 A synthetic ID is used to merge NCPT + lifestyle datasets row‑by‑row:
 
 <pre>
@@ -86,10 +88,10 @@ ncpt["synthetic_id"] = range(len(ncpt))
 lifestyle["synthetic_id"] = range(len(lifestyle))
 </pre>
 
-# Merged output:
+### Merged output:
 - merged.csv
 
-# 4. Scaling
+## 4. Scaling
 StandardScaler applied to numeric features:
 -Cognitive scores
 - Composite score
@@ -98,22 +100,21 @@ StandardScaler applied to numeric features:
 Output:
 - scaled.csv
 
-# 5. Clustering (KMeans)
+## 5. Clustering (KMeans)
 - KMeans with n_clusters = 4
 - Silhouette score printed for evaluation
 - Cluster labels added to dataset
-
 Output:
 - merged_scaled_clustered.csv
 
-# 6. Tableau Visualisation
+## 6. Tableau Visualisation
 Use the final dataset to build dashboards such as:
 - Cluster scatterplots
 - Cognitive vs lifestyle comparisons
 - Risk profile heatmaps
 - Behavioural segmentation views
 
-# Requirements
+### Requirements
 <pre>
 Python 3.10+
 pandas
@@ -126,7 +127,7 @@ Install dependencies:
 pip install pandas numpy scikit-learn
 </pre>
 
-# How to Run the Pipeline
+### How to Run the Pipeline
 <pre>
 python scripts/01_load_data.py
 python scripts/02_clean_data.py
