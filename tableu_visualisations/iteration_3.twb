@@ -1,0 +1,2408 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='63c63924643d6a625eb404ea082e6ee94f5098c332548dd7892f9d35b0f46af6' _.fcp.WorkbookFingerprinting.true...creator-author-id='63c63924643d6a625eb404ea082e6ee94f5098c332548dd7892f9d35b0f46af6' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='36ba887625eaf28f6738cc7deefc19ce9f0acfe7d76f8cced3fb920b82b2e5a7' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='36ba887625eaf28f6738cc7deefc19ce9f0acfe7d76f8cced3fb920b82b2e5a7' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='merged_for_tableau' inline='true' name='federated.116z41f04q3d161bxi9k61m7l8uq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='merged_for_tableau' name='textscan.18chsfh0sp29nk16yqivz1v02i8s'>
+            <connection class='textscan' directory='C:/OSAS_iteration3/outputs' filename='merged_for_tableau.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.18chsfh0sp29nk16yqivz1v02i8s' name='merged_for_tableau.csv' table='[merged_for_tableau#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_NZ' separator=','>
+            <column datatype='real' name='Attention' ordinal='0' />
+            <column datatype='real' name='MemoryRecall' ordinal='1' />
+            <column datatype='real' name='ProcessingSpeed' ordinal='2' />
+            <column datatype='real' name='Reasoning' ordinal='3' />
+            <column datatype='real' name='WorkingMemory' ordinal='4' />
+            <column datatype='real' name='cognitive_composite_score' ordinal='5' />
+            <column datatype='real' name='Daily_Screen_Time_Hours' ordinal='6' />
+            <column datatype='real' name='Sleep_Hours_Per_Night' ordinal='7' />
+            <column datatype='real' name='Exercise_Frequency_Num' ordinal='8' />
+            <column datatype='real' name='Self_Reported_Stress_Level' ordinal='9' />
+            <column datatype='real' name='Social_Interactions_Per_Week' ordinal='10' />
+            <column datatype='real' name='wellbeing_index' ordinal='11' />
+            <column datatype='real' name='risk_behaviour_score' ordinal='12' />
+            <column datatype='integer' name='cluster' ordinal='13' />
+            <column datatype='real' name='Attention 1' ordinal='14' />
+            <column datatype='real' name='MemoryRecall 1' ordinal='15' />
+            <column datatype='real' name='ProcessingSpeed 1' ordinal='16' />
+            <column datatype='real' name='Reasoning 1' ordinal='17' />
+            <column datatype='real' name='WorkingMemory 1' ordinal='18' />
+            <column datatype='real' name='cognitive_composite_score 1' ordinal='19' />
+            <column datatype='real' name='Daily_Screen_Time_Hours 1' ordinal='20' />
+            <column datatype='real' name='Sleep_Hours_Per_Night 1' ordinal='21' />
+            <column datatype='real' name='Exercise_Frequency_Num 1' ordinal='22' />
+            <column datatype='real' name='Self_Reported_Stress_Level 1' ordinal='23' />
+            <column datatype='real' name='Social_Interactions_Per_Week 1' ordinal='24' />
+            <column datatype='real' name='wellbeing_index 1' ordinal='25' />
+            <column datatype='real' name='risk_behaviour_score 1' ordinal='26' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_NZ&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Attention]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Attention</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MemoryRecall</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MemoryRecall]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>MemoryRecall</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProcessingSpeed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ProcessingSpeed]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>ProcessingSpeed</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reasoning</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reasoning]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Reasoning</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkingMemory</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WorkingMemory]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>WorkingMemory</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cognitive_composite_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cognitive_composite_score]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>cognitive_composite_score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_Screen_Time_Hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Daily_Screen_Time_Hours]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Daily_Screen_Time_Hours</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Hours_Per_Night</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sleep_Hours_Per_Night]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Sleep_Hours_Per_Night</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exercise_Frequency_Num</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Exercise_Frequency_Num]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Exercise_Frequency_Num</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self_Reported_Stress_Level</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Self_Reported_Stress_Level]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Self_Reported_Stress_Level</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_Interactions_Per_Week</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social_Interactions_Per_Week]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Social_Interactions_Per_Week</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wellbeing_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wellbeing_index]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>wellbeing_index</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>risk_behaviour_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[risk_behaviour_score]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>risk_behaviour_score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cluster]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>cluster</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attention 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Attention 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Attention 1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MemoryRecall 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MemoryRecall 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>MemoryRecall 1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProcessingSpeed 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ProcessingSpeed 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>ProcessingSpeed 1</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reasoning 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reasoning 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Reasoning 1</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkingMemory 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WorkingMemory 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>WorkingMemory 1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cognitive_composite_score 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cognitive_composite_score 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>cognitive_composite_score 1</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_Screen_Time_Hours 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Daily_Screen_Time_Hours 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Daily_Screen_Time_Hours 1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Hours_Per_Night 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sleep_Hours_Per_Night 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Sleep_Hours_Per_Night 1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exercise_Frequency_Num 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Exercise_Frequency_Num 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Exercise_Frequency_Num 1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self_Reported_Stress_Level 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Self_Reported_Stress_Level 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Self_Reported_Stress_Level 1</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_Interactions_Per_Week 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social_Interactions_Per_Week 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>Social_Interactions_Per_Week 1</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wellbeing_index 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wellbeing_index 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>wellbeing_index 1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>risk_behaviour_score 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[risk_behaviour_score 1]</local-name>
+            <parent-name>[merged_for_tableau.csv]</parent-name>
+            <remote-alias>risk_behaviour_score 1</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Daily Screen Time Hours 1' datatype='real' name='[Daily_Screen_Time_Hours 1]' role='measure' type='quantitative' />
+      <column caption='Daily Screen Time Hours' datatype='real' name='[Daily_Screen_Time_Hours]' role='measure' type='quantitative' />
+      <column caption='Exercise Frequency Num 1' datatype='real' name='[Exercise_Frequency_Num 1]' role='measure' type='quantitative' />
+      <column caption='Exercise Frequency Num' datatype='real' name='[Exercise_Frequency_Num]' role='dimension' type='ordinal' />
+      <column caption='Memory Recall' datatype='real' name='[MemoryRecall]' role='measure' type='quantitative' />
+      <column caption='Processing Speed' datatype='real' name='[ProcessingSpeed]' role='measure' type='quantitative' />
+      <column caption='Self Reported Stress Level 1' datatype='real' name='[Self_Reported_Stress_Level 1]' role='measure' type='quantitative' />
+      <column caption='Self Reported Stress Level' datatype='real' name='[Self_Reported_Stress_Level]' role='measure' type='quantitative' />
+      <column caption='Sleep Hours Per Night 1' datatype='real' name='[Sleep_Hours_Per_Night 1]' role='measure' type='quantitative' />
+      <column caption='Sleep Hours Per Night' datatype='real' name='[Sleep_Hours_Per_Night]' role='measure' type='quantitative' />
+      <column caption='Social Interactions Per Week 1' datatype='real' name='[Social_Interactions_Per_Week 1]' role='dimension' type='quantitative' />
+      <column caption='Social Interactions Per Week' datatype='real' name='[Social_Interactions_Per_Week]' role='dimension' type='quantitative' />
+      <column caption='Working Memory' datatype='real' name='[WorkingMemory]' role='measure' type='quantitative' />
+      <column caption='merged_for_tableau.csv' datatype='table' name='[__tableau_internal_object_id__].[merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+      <column caption='Cognitive Composite Score 1' datatype='real' name='[cognitive_composite_score 1]' role='measure' type='quantitative' />
+      <column caption='Cognitive Composite Score' datatype='real' name='[cognitive_composite_score]' role='measure' type='quantitative' />
+      <column caption='Risk Behaviour Score 1' datatype='real' name='[risk_behaviour_score 1]' role='measure' type='quantitative' />
+      <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+      <column caption='Wellbeing Index 1' datatype='real' name='[wellbeing_index 1]' role='measure' type='quantitative' />
+      <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+      <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:cluster:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;New Zealand&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='merged_for_tableau.csv' id='merged_for_tableau.csv_202F281F97AF4265AEA86564119B5887'>
+            <properties context=''>
+              <relation connection='textscan.18chsfh0sp29nk16yqivz1v02i8s' name='merged_for_tableau.csv' table='[merged_for_tableau#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_NZ' separator=','>
+                  <column datatype='real' name='Attention' ordinal='0' />
+                  <column datatype='real' name='MemoryRecall' ordinal='1' />
+                  <column datatype='real' name='ProcessingSpeed' ordinal='2' />
+                  <column datatype='real' name='Reasoning' ordinal='3' />
+                  <column datatype='real' name='WorkingMemory' ordinal='4' />
+                  <column datatype='real' name='cognitive_composite_score' ordinal='5' />
+                  <column datatype='real' name='Daily_Screen_Time_Hours' ordinal='6' />
+                  <column datatype='real' name='Sleep_Hours_Per_Night' ordinal='7' />
+                  <column datatype='real' name='Exercise_Frequency_Num' ordinal='8' />
+                  <column datatype='real' name='Self_Reported_Stress_Level' ordinal='9' />
+                  <column datatype='real' name='Social_Interactions_Per_Week' ordinal='10' />
+                  <column datatype='real' name='wellbeing_index' ordinal='11' />
+                  <column datatype='real' name='risk_behaviour_score' ordinal='12' />
+                  <column datatype='integer' name='cluster' ordinal='13' />
+                  <column datatype='real' name='Attention 1' ordinal='14' />
+                  <column datatype='real' name='MemoryRecall 1' ordinal='15' />
+                  <column datatype='real' name='ProcessingSpeed 1' ordinal='16' />
+                  <column datatype='real' name='Reasoning 1' ordinal='17' />
+                  <column datatype='real' name='WorkingMemory 1' ordinal='18' />
+                  <column datatype='real' name='cognitive_composite_score 1' ordinal='19' />
+                  <column datatype='real' name='Daily_Screen_Time_Hours 1' ordinal='20' />
+                  <column datatype='real' name='Sleep_Hours_Per_Night 1' ordinal='21' />
+                  <column datatype='real' name='Exercise_Frequency_Num 1' ordinal='22' />
+                  <column datatype='real' name='Self_Reported_Stress_Level 1' ordinal='23' />
+                  <column datatype='real' name='Social_Interactions_Per_Week 1' ordinal='24' />
+                  <column datatype='real' name='wellbeing_index 1' ordinal='25' />
+                  <column datatype='real' name='risk_behaviour_score 1' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Cluster Profile Dashboard'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Displays average lifestyle and cognitive metrics for each cluster, highlighting behavioural differences.
+</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+            <column caption='Daily Screen Time Hours' datatype='real' name='[Daily_Screen_Time_Hours]' role='measure' type='quantitative' />
+            <column caption='Exercise Frequency Num 1' datatype='real' name='[Exercise_Frequency_Num 1]' role='measure' type='quantitative' />
+            <column caption='Self Reported Stress Level' datatype='real' name='[Self_Reported_Stress_Level]' role='measure' type='quantitative' />
+            <column caption='Sleep Hours Per Night' datatype='real' name='[Sleep_Hours_Per_Night]' role='measure' type='quantitative' />
+            <column-instance column='[Daily_Screen_Time_Hours]' derivation='Avg' name='[avg:Daily_Screen_Time_Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Exercise_Frequency_Num 1]' derivation='Avg' name='[avg:Exercise_Frequency_Num 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Self_Reported_Stress_Level]' derivation='Avg' name='[avg:Self_Reported_Stress_Level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Hours_Per_Night]' derivation='Avg' name='[avg:Sleep_Hours_Per_Night:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cognitive_composite_score]' derivation='Avg' name='[avg:cognitive_composite_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Avg' name='[avg:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wellbeing_index]' derivation='Avg' name='[avg:wellbeing_index:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column caption='Cognitive Composite Score' datatype='real' name='[cognitive_composite_score]' role='measure' type='quantitative' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+            <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+            <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' included-values='in-range'>
+            <min>-0.75823435541759698</min>
+            <max>0.65737184179676433</max>
+          </filter>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' included-values='in-range'>
+            <min>-0.7294042037171975</min>
+            <max>0.88661618773467266</max>
+          </filter>
+          <filter class='categorical' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]'>
+            <groupfilter function='level-members' level='[none:cluster:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Sleep_Hours_Per_Night:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Exercise_Frequency_Num 1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Daily_Screen_Time_Hours:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:cognitive_composite_score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Self_Reported_Stress_Level:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Sleep_Hours_Per_Night:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Exercise_Frequency_Num 1:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Self_Reported_Stress_Level:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Daily_Screen_Time_Hours:qk] + [federated.116z41f04q3d161bxi9k61m7l8uq].[avg:cognitive_composite_score:qk]))))</rows>
+        <cols>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</cols>
+      </table>
+      <simple-id uuid='{BE90F6E0-83BB-4E13-A5C2-7F68EE5B243E}' />
+    </worksheet>
+    <worksheet name='Lifestyle vs Cognition Heatmap'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Visualises correlations between lifestyle factors and cognitive performance measures.
+</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+            <column datatype='real' name='[Attention 1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Attention]' role='measure' type='quantitative' />
+            <column caption='Daily Screen Time Hours 1' datatype='real' name='[Daily_Screen_Time_Hours 1]' role='measure' type='quantitative' />
+            <column caption='Daily Screen Time Hours' datatype='real' name='[Daily_Screen_Time_Hours]' role='measure' type='quantitative' />
+            <column caption='Exercise Frequency Num 1' datatype='real' name='[Exercise_Frequency_Num 1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[MemoryRecall 1]' role='measure' type='quantitative' />
+            <column caption='Memory Recall' datatype='real' name='[MemoryRecall]' role='measure' type='quantitative' />
+            <column datatype='real' name='[ProcessingSpeed 1]' role='measure' type='quantitative' />
+            <column caption='Processing Speed' datatype='real' name='[ProcessingSpeed]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Reasoning 1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Reasoning]' role='measure' type='quantitative' />
+            <column caption='Self Reported Stress Level 1' datatype='real' name='[Self_Reported_Stress_Level 1]' role='measure' type='quantitative' />
+            <column caption='Self Reported Stress Level' datatype='real' name='[Self_Reported_Stress_Level]' role='measure' type='quantitative' />
+            <column caption='Sleep Hours Per Night 1' datatype='real' name='[Sleep_Hours_Per_Night 1]' role='measure' type='quantitative' />
+            <column caption='Sleep Hours Per Night' datatype='real' name='[Sleep_Hours_Per_Night]' role='measure' type='quantitative' />
+            <column caption='Working Memory' datatype='real' name='[WorkingMemory]' role='measure' type='quantitative' />
+            <column-instance column='[Attention]' derivation='Avg' name='[avg:Attention:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Daily_Screen_Time_Hours]' derivation='Avg' name='[avg:Daily_Screen_Time_Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Exercise_Frequency_Num 1]' derivation='Avg' name='[avg:Exercise_Frequency_Num 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MemoryRecall]' derivation='Avg' name='[avg:MemoryRecall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reasoning]' derivation='Avg' name='[avg:Reasoning:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Self_Reported_Stress_Level]' derivation='Avg' name='[avg:Self_Reported_Stress_Level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Hours_Per_Night]' derivation='Avg' name='[avg:Sleep_Hours_Per_Night:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WorkingMemory]' derivation='Avg' name='[avg:WorkingMemory:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Avg' name='[avg:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wellbeing_index]' derivation='Avg' name='[avg:wellbeing_index:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column caption='Cognitive Composite Score 1' datatype='real' name='[cognitive_composite_score 1]' role='measure' type='quantitative' />
+            <column caption='Cognitive Composite Score' datatype='real' name='[cognitive_composite_score]' role='measure' type='quantitative' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+            <column caption='Risk Behaviour Score 1' datatype='real' name='[risk_behaviour_score 1]' role='measure' type='quantitative' />
+            <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+            <column-instance column='[Attention 1]' derivation='Sum' name='[sum:Attention 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Attention]' derivation='Sum' name='[sum:Attention:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Daily_Screen_Time_Hours 1]' derivation='Sum' name='[sum:Daily_Screen_Time_Hours 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Daily_Screen_Time_Hours]' derivation='Sum' name='[sum:Daily_Screen_Time_Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Exercise_Frequency_Num 1]' derivation='Sum' name='[sum:Exercise_Frequency_Num 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MemoryRecall 1]' derivation='Sum' name='[sum:MemoryRecall 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MemoryRecall]' derivation='Sum' name='[sum:MemoryRecall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ProcessingSpeed 1]' derivation='Sum' name='[sum:ProcessingSpeed 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ProcessingSpeed]' derivation='Sum' name='[sum:ProcessingSpeed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reasoning 1]' derivation='Sum' name='[sum:Reasoning 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reasoning]' derivation='Sum' name='[sum:Reasoning:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Self_Reported_Stress_Level 1]' derivation='Sum' name='[sum:Self_Reported_Stress_Level 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Self_Reported_Stress_Level]' derivation='Sum' name='[sum:Self_Reported_Stress_Level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Hours_Per_Night 1]' derivation='Sum' name='[sum:Sleep_Hours_Per_Night 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Hours_Per_Night]' derivation='Sum' name='[sum:Sleep_Hours_Per_Night:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cognitive_composite_score 1]' derivation='Sum' name='[sum:cognitive_composite_score 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cognitive_composite_score]' derivation='Sum' name='[sum:cognitive_composite_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score 1]' derivation='Sum' name='[sum:risk_behaviour_score 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Sum' name='[sum:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wellbeing_index]' derivation='Sum' name='[sum:wellbeing_index:qk]' pivot='key' type='quantitative' />
+            <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Attention:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Attention 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:cognitive_composite_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:cognitive_composite_score 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Daily_Screen_Time_Hours:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Daily_Screen_Time_Hours 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Exercise_Frequency_Num 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:MemoryRecall:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:MemoryRecall 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:ProcessingSpeed:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:ProcessingSpeed 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Reasoning:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Reasoning 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:risk_behaviour_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:risk_behaviour_score 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Self_Reported_Stress_Level:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Self_Reported_Stress_Level 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Sleep_Hours_Per_Night:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Sleep_Hours_Per_Night 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:wellbeing_index:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' included-values='in-range'>
+            <min>-1.503071171800212e-16</min>
+            <max>-1.503071171800212e-16</max>
+          </filter>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' included-values='in-range'>
+            <min>1.7336559538377444e-16</min>
+            <max>1.7336559538377444e-16</max>
+          </filter>
+          <filter class='categorical' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]'>
+            <groupfilter function='level-members' level='[none:cluster:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[Multiple Values]' />
+              <lod column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Sleep_Hours_Per_Night:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[Multiple Values]' />
+              <lod column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Exercise_Frequency_Num 1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[Multiple Values]' />
+              <lod column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Daily_Screen_Time_Hours:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[Multiple Values]' />
+              <lod column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Self_Reported_Stress_Level:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[Multiple Values]' />
+              <lod column='[federated.116z41f04q3d161bxi9k61m7l8uq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Sleep_Hours_Per_Night:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Exercise_Frequency_Num 1:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Daily_Screen_Time_Hours:qk] + [federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Self_Reported_Stress_Level:qk])))</rows>
+        <cols>([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Attention:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:MemoryRecall:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[avg:Reasoning:qk] + [federated.116z41f04q3d161bxi9k61m7l8uq].[avg:WorkingMemory:qk])))</cols>
+      </table>
+      <simple-id uuid='{955C6B9C-4B5E-46C7-A0BE-C5511FAE43DF}' />
+    </worksheet>
+    <worksheet name='Parallel Coordinates Plot'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Compares clusters across multiple cognitive, lifestyle, stress, and risk behaviour dimensions</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+            <column datatype='real' name='[Attention]' role='measure' type='quantitative' />
+            <column caption='Daily Screen Time Hours' datatype='real' name='[Daily_Screen_Time_Hours]' role='measure' type='quantitative' />
+            <column caption='Exercise Frequency Num 1' datatype='real' name='[Exercise_Frequency_Num 1]' role='measure' type='quantitative' />
+            <column caption='Memory Recall' datatype='real' name='[MemoryRecall]' role='measure' type='quantitative' />
+            <column caption='Processing Speed' datatype='real' name='[ProcessingSpeed]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Reasoning]' role='measure' type='quantitative' />
+            <column caption='Self Reported Stress Level' datatype='real' name='[Self_Reported_Stress_Level]' role='measure' type='quantitative' />
+            <column caption='Sleep Hours Per Night' datatype='real' name='[Sleep_Hours_Per_Night]' role='measure' type='quantitative' />
+            <column caption='Working Memory' datatype='real' name='[WorkingMemory]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+            <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+            <column-instance column='[Attention]' derivation='Sum' name='[sum:Attention:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Daily_Screen_Time_Hours]' derivation='Sum' name='[sum:Daily_Screen_Time_Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Exercise_Frequency_Num 1]' derivation='Sum' name='[sum:Exercise_Frequency_Num 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MemoryRecall]' derivation='Sum' name='[sum:MemoryRecall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ProcessingSpeed]' derivation='Sum' name='[sum:ProcessingSpeed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reasoning]' derivation='Sum' name='[sum:Reasoning:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Self_Reported_Stress_Level]' derivation='Sum' name='[sum:Self_Reported_Stress_Level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Hours_Per_Night]' derivation='Sum' name='[sum:Sleep_Hours_Per_Night:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WorkingMemory]' derivation='Sum' name='[sum:WorkingMemory:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Sum' name='[sum:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Attention:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:MemoryRecall:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Sleep_Hours_Per_Night:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:WorkingMemory:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Exercise_Frequency_Num 1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Daily_Screen_Time_Hours:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Self_Reported_Stress_Level:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:risk_behaviour_score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:ProcessingSpeed:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Reasoning:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Attention:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:MemoryRecall:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:ProcessingSpeed:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Reasoning:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:WorkingMemory:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Sleep_Hours_Per_Night:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Exercise_Frequency_Num 1:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Daily_Screen_Time_Hours:qk] + ([federated.116z41f04q3d161bxi9k61m7l8uq].[sum:Self_Reported_Stress_Level:qk] + [federated.116z41f04q3d161bxi9k61m7l8uq].[sum:risk_behaviour_score:qk])))))))))</cols>
+      </table>
+      <simple-id uuid='{D23ED0A2-3BE4-451A-BB0F-F2E132212CA3}' />
+    </worksheet>
+    <worksheet name='Risk Behaviour Distribution'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Shows the spread and variability of risk behaviour scores across clusters.
+</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+            <column-instance column='[risk_behaviour_score]' derivation='Avg' name='[avg:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wellbeing_index]' derivation='Avg' name='[avg:wellbeing_index:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+            <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+            <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' included-values='in-range'>
+            <min>-0.75823435541759698</min>
+            <max>0.65737184179676433</max>
+          </filter>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' included-values='in-range'>
+            <min>-0.7294042037171975</min>
+            <max>0.88661618773467266</max>
+          </filter>
+          <filter class='categorical' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]'>
+            <groupfilter function='level-members' level='[none:cluster:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{070223CB-4BAC-41EF-A66C-423FD1DC1F09}' />
+    </worksheet>
+    <worksheet name='Scatterplot'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Shows the relationship between Cognitive Composite Score and Wellbeing Index, coloured by cluster and sized by risk behaviour.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+            <column-instance column='[cognitive_composite_score]' derivation='Avg' name='[avg:cognitive_composite_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Avg' name='[avg:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wellbeing_index]' derivation='Avg' name='[avg:wellbeing_index:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column caption='Cognitive Composite Score' datatype='real' name='[cognitive_composite_score]' role='measure' type='quantitative' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+            <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+            <column-instance column='[cognitive_composite_score]' derivation='Sum' name='[sum:cognitive_composite_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[risk_behaviour_score]' derivation='Sum' name='[sum:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+            <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' included-values='in-range'>
+            <min>-0.75823435541759698</min>
+            <max>0.65737184179676433</max>
+          </filter>
+          <filter class='quantitative' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' included-values='in-range'>
+            <min>-0.7294042037171975</min>
+            <max>0.88661618773467266</max>
+          </filter>
+          <filter class='categorical' column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]'>
+            <groupfilter function='level-members' level='[none:cluster:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]</column>
+            <column>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' />
+              <size column='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:risk_behaviour_score:qk]' />
+              <tooltip column='[federated.116z41f04q3d161bxi9k61m7l8uq].[sum:cognitive_composite_score:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]</rows>
+        <cols>[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:cognitive_composite_score:qk]</cols>
+      </table>
+      <simple-id uuid='{5F6053B6-BEC9-4B0A-BC79-390A8A8341E6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Cognitive &amp; Lifestyle Cluster Visualisation Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1600' minheight='800' minwidth='1600' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='merged_for_tableau' name='federated.116z41f04q3d161bxi9k61m7l8uq' />
+      </datasources>
+      <datasource-dependencies datasource='federated.116z41f04q3d161bxi9k61m7l8uq'>
+        <column-instance column='[risk_behaviour_score]' derivation='Avg' name='[avg:risk_behaviour_score:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[wellbeing_index]' derivation='Avg' name='[avg:wellbeing_index:qk]' pivot='key' type='quantitative' />
+        <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+        <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+        <column caption='Risk Behaviour Score' datatype='real' name='[risk_behaviour_score]' role='measure' type='quantitative' />
+        <column caption='Wellbeing Index' datatype='real' name='[wellbeing_index]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='5' param='horz' type-v2='layout-flow' w='99000' x='500' y='1000'>
+            <zone h='98000' id='3' type-v2='layout-basic' w='89000' x='500' y='1000'>
+              <zone h='49000' id='1' name='Scatterplot' w='44500' x='500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' name='Lifestyle vs Cognition Heatmap' w='44500' x='45000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='16' name='Cluster Profile Dashboard' w='44500' x='500' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='20' name='Risk Behaviour Distribution' w='44500' x='45000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='4' is-fixed='true' param='vert' type-v2='layout-flow' w='10000' x='89500' y='1000'>
+              <zone h='9125' id='6' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9125' id='7' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='10125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7625' id='8' mode='dropdown' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='19250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9125' id='13' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='26875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9125' id='14' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='36000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7625' id='15' mode='dropdown' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='45125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9125' id='17' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='52750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9125' id='18' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='61875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7625' id='19' mode='dropdown' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='71000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7625' id='21' mode='dropdown' name='Risk Behaviour Distribution' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='78625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='22' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+                <zone h='9125' id='6' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='7' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='10125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7625' id='8' mode='dropdown' name='Scatterplot' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='19250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='1' is-fixed='true' name='Scatterplot' w='44500' x='500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='13' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='26875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='14' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='36000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7625' id='15' mode='dropdown' name='Lifestyle vs Cognition Heatmap' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='45125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='Lifestyle vs Cognition Heatmap' w='44500' x='45000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='17' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='52750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='18' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='89500' y='61875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7625' id='19' mode='dropdown' name='Cluster Profile Dashboard' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='71000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='16' is-fixed='true' name='Cluster Profile Dashboard' w='44500' x='500' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7625' id='21' mode='dropdown' name='Risk Behaviour Distribution' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type-v2='filter' w='10000' x='89500' y='78625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='20' is-fixed='true' name='Risk Behaviour Distribution' w='44500' x='45000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6EDFAF3B-A912-4D3B-B538-4DA68C752224}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Scatterplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{50C8FDA5-0120-4F8C-AD97-818B3F4409BC}' />
+    </window>
+    <window class='worksheet' name='Cluster Profile Dashboard'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</field>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:wellbeing_index:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{939BECF9-B80F-4DF4-917E-172EFB8DECDB}' />
+    </window>
+    <window class='worksheet' name='Lifestyle vs Cognition Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:wellbeing_index:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[avg:risk_behaviour_score:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8C6E701D-5DF8-4F27-A92A-1F1B5AF72BCE}' />
+    </window>
+    <window class='worksheet' name='Risk Behaviour Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{518BEE9A-031B-4E33-9D46-D6ED43B345A2}' />
+    </window>
+    <window class='worksheet' name='Parallel Coordinates Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.116z41f04q3d161bxi9k61m7l8uq].[none:cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{982E98BA-5C0B-4363-A751-51070F1060C3}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Cognitive &amp; Lifestyle Cluster Visualisation Dashboard'>
+      <viewpoints>
+        <viewpoint name='Cluster Profile Dashboard'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Lifestyle vs Cognition Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Risk Behaviour Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Scatterplot'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='4' />
+      <simple-id uuid='{986BDC17-CB75-4E2E-B779-E667D194ACA2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Cluster Profile Dashboard' width='192'>
+      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
+      wbDj/wNgVWiwIBrKowAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Cognitive &amp; Lifestyle Cluster Visualisation Dashboard' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Lifestyle vs Cognition Heatmap' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='87' name='Parallel Coordinates Plot' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Risk Behaviour Distribution' width='133'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Scatterplot' width='192'>
+      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
+      /wf/Khlyrw06SgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
