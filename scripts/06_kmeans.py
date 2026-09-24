@@ -10,3 +10,11 @@ labels = kmeans.fit_predict(scaled)
 scaled["cluster"] = labels
 scaled.to_csv("C:/OSAS_iteration3/outputs/merged_scaled_clustered.csv", index=False)
 print("Silhouette:", silhouette_score(scaled, labels))
+
+# for k in [3, 4, 5, 6]:
+#     kmeans = KMeans(n_clusters=k, random_state=42)
+#     labels = kmeans.fit_predict(scaled)
+#     score = silhouette_score(scaled, labels)
+#     scaled["cluster"] = labels
+#     scaled.to_csv("C:/OSAS_iteration3/outputs/merged_scaled_clustered.csv", index=False)
+#     print(f"K={k}, Silhouette Score={score}")
